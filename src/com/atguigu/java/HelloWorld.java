@@ -11,7 +11,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         Season spring  = Season.AUTUMN;
         System.out.println(spring.getSeasonName());
-        String[] str = new String[]{"Tom", "lisi", "zhangsan","王五"};
+        String[] str = new String[]{"Tom", "lisi", "zhangsan","王五","李四"};
         for (String s : str) {
             System.out.println(s);
         }
